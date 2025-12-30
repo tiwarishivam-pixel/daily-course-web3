@@ -1,4 +1,4 @@
-// Create contract:
+// Q3 — Attendance Tracker
 // Struct Student { name, presentCount }
 // Mapping address → Student
 // Function markPresent() increases count

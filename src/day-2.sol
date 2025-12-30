@@ -1,5 +1,12 @@
-// SPDX-License-Identifier: MIT
+// Q2 — Bank Access Levels
+// Create a small bank contract:
+// deposit() → public
+// withdraw() → public
+// Internal function that calculates a fee and is used inside withdraw
+// Private function used only inside contract
+// External function that returns total balance
 
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 contract bank {
     mapping(address => uint) public balances;
